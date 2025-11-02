@@ -96,19 +96,7 @@ def AnaliseDeSentimento():
 def analiseExporatoria():
     
     st.title("Analise Exploratoria")
-    col4,col5,col6,col7 = st.columns(4)
 
-
-    with col4:
-        st.metric("Total Streamer", 1)
-
-    with col5:
-        st.metric("Media Viewer por Live", 1)
-    with col6:
-        st.metric("STD Viewer",1)
-    with col7:
-        st.metric("TTL HRS ASTD",1)
-    
     col8,col9, = st.columns(2)
     col10,col11 = st.columns(2)
 
